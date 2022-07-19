@@ -732,7 +732,7 @@ h5 {
 
 .navbar-b {
 	transition: all .5s ease-in-out;
-	background-color: #6eb8f5;
+	background-color: #fff;
 	padding-top: 12px;
 	padding-bottom: 12px;
 	height: 90px;
@@ -753,7 +753,7 @@ h5 {
 }
 .navbar-b.navbar-trans .nav-link,
 .navbar-b.navbar-reduce .nav-link {
-	color: #ffffff;
+	color: #333;
 	text-transform: capitalize;
 	font-weight: 400;
 	font-size: 15px;
@@ -767,17 +767,17 @@ h5 {
 	color: #1B1B1B;
 }
 .navbar-b.navbar-trans .nav-link:hover {
-	color: #ffffff;
+	color: #333;
 }
 .navbar-b.navbar-trans .show > .nav-link,
 .navbar-b.navbar-trans .active > .nav-link,
 .navbar-b.navbar-trans .nav-link.show,
 .navbar-b.navbar-trans .nav-link.active {
-	color: #ffffff;
+	color: #333;
 }
 .navbar-b.navbar-reduce {
 	transition: all .5s ease-in-out;
-	background-color: #6eb8f5;
+	background-color: #ffff;
 	padding-top: 15px;
 	padding-bottom: 15px;
 	-webkit-animation: 500ms ease-in-out 0s normal fadeInDown;
@@ -786,10 +786,10 @@ h5 {
 	transition: 0.6s;
 }
 .navbar-b.navbar-reduce .nav-link {
-	color: #ffffff;
+	color: #333;
 }
 .navbar-b.navbar-reduce .book-now .nav-link{
-	color: #fff !important;
+	color: #333 !important;
 }
 .navbar-b.navbar-reduce .nav-link:hover {
 	color: #ef9e07;
@@ -838,7 +838,7 @@ h5 {
 	transition: all 500ms ease;
 }
 .navbar-b .dropdown-menu .dropdown-item.active {
-	background-color: #17a2b8;
+	background-color: #ffff;
 }
 .navbar-toggler {
 	position: absolute;
@@ -921,8 +921,13 @@ h5 {
 	font-size: 20px;
     font-weight: 300;
     font-family: 'Anton', sans-serif;
-    color: #ffffff;
+    color: #333;
     margin-left:20px;
+}
+.top-contact:hover{
+	
+    color: #ef9e07;
+    transition: 1s;
 }
 .top-contact span{
 	color: #ececec;
