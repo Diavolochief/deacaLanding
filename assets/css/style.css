@@ -22,6 +22,9 @@ body {
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
+ul{
+	font-weight: bold;
+}
 h1,
 h2,
 h3,
@@ -731,7 +734,6 @@ h5 {
 .header-navber-area .nav-top-bar.template-color-bg .top-social li a {
   color: #ffffff;
 }
-
 .navbar-b {
 	transition: all .5s ease-in-out;
 	background-color: #fff;
@@ -1175,7 +1177,7 @@ h5 {
  *************************************/
 .why-chose-service img{
 	border-radius: 50%;
-	width: 33%;
+	width: 50%;
     margin-bottom: 30px;
 }
 
@@ -1219,9 +1221,10 @@ h5 {
 	display: flex;
     justify-content: space-between;
     width: 100%;
-    padding: 5px 0px;
-    margin-bottom: 5px;
+    padding: 5px 20px;
+    margin-bottom: 20px;
     border-bottom: 1px solid #c4c4c4;
+
 }
 .display-flex i{
 	padding-right: 5px;
